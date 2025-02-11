@@ -1,9 +1,8 @@
-export default function page() {
+import QouteTimer from "@/components/ui/QouteTimer";
+export default function Home() {
   return (
     <>
-      <div className="text-center">
-        <h1>Qoute</h1>
-      </div>
+      <QouteTimer />
     </>
   );
 }
