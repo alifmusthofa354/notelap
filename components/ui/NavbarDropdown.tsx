@@ -159,9 +159,13 @@ export default function NavbarDropdown() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Features
-          </a>
+          <Link
+            href={"/note"}
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            Note
+          </Link>
+
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Marketplace
           </a>
@@ -231,12 +235,12 @@ export default function NavbarDropdown() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
+                <Link
+                  href={"/note"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Features
-                </a>
+                  Note
+                </Link>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
